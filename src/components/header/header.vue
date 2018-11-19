@@ -57,6 +57,30 @@ export default {
             @include bg-image('brand');
             background-size: 30px 18px;
           }
+        };
+        .description{
+          margin-bottom: 10px;
+          line-height: 12px;
+          font-size: 12px;
+        };
+        .support{
+          .icon{
+            display:inline-block;
+            width: 12px;
+            height: 12px;
+            margin-right: 4px;
+            background-size: 12px 12px;
+            background-repeat: no-repeat;
+            &.decrease{
+              @include bg-image('decrease_1');
+            };
+            &.discount{
+              @include bg-image('discount_1');
+            };
+            &.discount{
+              @include bg-image('discount_1');
+            };
+          }
         }
 
       }
