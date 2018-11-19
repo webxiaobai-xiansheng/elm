@@ -41,7 +41,8 @@ export default {
       padding: 24px 12px 18px 24px;
       font-size: 0;//消除空白字符，两个div之间没有空隙
       .avater{
-        display: inline-block
+        display: inline-block;
+        vertical-align:top
       }
       .content{
         display: inline-block;
@@ -57,6 +58,7 @@ export default {
             background-size: 30px 18px;
           }
         }
+
       }
     }
   }
